@@ -1,0 +1,78 @@
+[
+    {
+        "messageId": 140,
+        "temperature":35,
+        "humidity": 48.900002,
+        "EventProcessedUtcTime": "2018-10-10T17:29:18.5195029Z",
+        "PartitionId": 1,
+        "EventEnqueuedUtcTime": "2018-10-10T17:29:17.2670000Z",
+        "IoTHub": {
+            "MessageId": null,
+            "CorrelationId": null,
+            "ConnectionDeviceId": "IoTDevKitProvisioned",
+            "ConnectionDeviceGenerationId": "636747098335837028",
+            "EnqueuedTime": "2018-10-10T17:29:17.0790000Z",
+            "StreamId": null
+        }
+    },
+    {
+        "messageId": 141,
+        "humidity": 49.099998,
+        "EventProcessedUtcTime": "2018-10-10T17:29:38.3711142Z",
+        "PartitionId": 1,
+        "EventEnqueuedUtcTime": "2018-10-10T17:29:38.0530000Z",
+        "IoTHub": {
+            "MessageId": null,
+            "CorrelationId": null,
+            "ConnectionDeviceId": "IoTDevKitProvisioned",
+            "ConnectionDeviceGenerationId": "636747098335837028",
+            "EnqueuedTime": "2018-10-10T17:29:37.8790000Z",
+            "StreamId": null
+        }
+    },
+    {
+        "messageId": 142,
+        "humidity": 49.200001,
+        "EventProcessedUtcTime": "2018-10-10T17:29:59.2010798Z",
+        "PartitionId": 1,
+        "EventEnqueuedUtcTime": "2018-10-10T17:29:58.8700000Z",
+        "IoTHub": {
+            "MessageId": null,
+            "CorrelationId": null,
+            "ConnectionDeviceId": "IoTDevKitProvisioned",
+            "ConnectionDeviceGenerationId": "636747098335837028",
+            "EnqueuedTime": "2018-10-10T17:29:58.7090000Z",
+            "StreamId": null
+        }
+    },
+    {
+        "messageId": 143,
+        "humidity": 48.900002,
+        "EventProcessedUtcTime": "2018-10-10T17:30:20.1664443Z",
+        "PartitionId": 1,
+        "EventEnqueuedUtcTime": "2018-10-10T17:30:19.6680000Z",
+        "IoTHub": {
+            "MessageId": null,
+            "CorrelationId": null,
+            "ConnectionDeviceId": "IoTDevKitProvisioned",
+            "ConnectionDeviceGenerationId": "636747098335837028",
+            "EnqueuedTime": "2018-10-10T17:30:19.5260000Z",
+            "StreamId": null
+        }
+    },
+    {
+        "messageId": 144,
+        "humidity": 49,
+        "EventProcessedUtcTime": "2018-10-10T17:30:40.5264502Z",
+        "PartitionId": 1,
+        "EventEnqueuedUtcTime": "2018-10-10T17:30:40.4850000Z",
+        "IoTHub": {
+            "MessageId": null,
+            "CorrelationId": null,
+            "ConnectionDeviceId": "IoTDevKitProvisioned",
+            "ConnectionDeviceGenerationId": "636747098335837028",
+            "EnqueuedTime": "2018-10-10T17:30:40.3260000Z",
+            "StreamId": null
+        }
+    }
+]

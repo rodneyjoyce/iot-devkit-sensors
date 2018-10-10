@@ -26,7 +26,7 @@ static void InitWifi()
     IPAddress ip = WiFi.localIP();
     Screen.print(1, ip.get_address());
     hasWifi = true;
-    Screen.print(2, "Running (5s) \r\n");
+    Screen.print(2, "Running (10s) \r\n");
   }
   else
   {

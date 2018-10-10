@@ -13,6 +13,7 @@ static bool hasWifi = false;
 int messageCount = 1;
 static bool messageSending = true;
 static uint64_t send_interval_ms;
+static int messageFrequencyInSeconds = 10;
 
 //////////////////////////////////////////////////////////////////////////////////////////////////////////
 // Utilities
@@ -25,7 +26,7 @@ static void InitWifi()
     IPAddress ip = WiFi.localIP();
     Screen.print(1, ip.get_address());
     hasWifi = true;
-    Screen.print(2, "Running... \r\n");
+    Screen.print(2, "Running (5s) \r\n");
   }
   else
   {
@@ -149,5 +150,5 @@ void loop()
       DevKitMQTTClient_Check();
     }
   }
-  delay(1000);
+  delay(messageFrequencyInSeconds * 1000);
 }
